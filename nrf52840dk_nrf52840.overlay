@@ -1,0 +1,10 @@
+
+&uart1 {
+	status = "okay";
+};
+
+/{
+chosen {
+    uart_second = &uart1;
+};
+};
